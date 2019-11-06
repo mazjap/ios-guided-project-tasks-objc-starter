@@ -8,6 +8,7 @@
 
 #import <XCTest/XCTest.h>
 //#import "../Tasks/Task Model/LSITask.h"
+#import "JACTask.h"
 
 @interface TasksTests : XCTestCase
 
@@ -17,8 +18,9 @@
 
 - (void)testCode {
 	
-	
+    JACTask *task = [[JACTask alloc] init];
 
+    
 }
 
 @end

@@ -1,20 +1,20 @@
 //
-//  LSITasksTableViewController.m
+//  JACTasksTableViewController.m
 //  Tasks
 //
 //  Created by Paul Solt on 10/9/19.
 //  Copyright © 2019 Lambda, Inc. All rights reserved.
 //
 
-#import "LSITasksTableViewController.h"
+#import "JACTasksTableViewController.h"
 
-@interface LSITasksTableViewController ()
+@interface JACTasksTableViewController ()
 
 @property (nonatomic, readonly) NSDateFormatter *dateFormatter;
 
 @end
 
-@implementation LSITasksTableViewController
+@implementation JACTasksTableViewController
 
 
 // MARK: - Table view data source

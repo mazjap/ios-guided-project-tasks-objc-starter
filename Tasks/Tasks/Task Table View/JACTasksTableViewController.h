@@ -1,5 +1,5 @@
 //
-//  LSITasksTableViewController.h
+//  JACTasksTableViewController.h
 //  Tasks
 //
 //  Created by Paul Solt on 10/9/19.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LSITasksTableViewController : UITableViewController
+@interface JACTasksTableViewController : UITableViewController
 
 @end

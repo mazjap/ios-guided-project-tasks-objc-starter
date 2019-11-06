@@ -1,14 +1,14 @@
 //
-//  LSITaskDetailViewController.m
+//  JACTaskDetailViewController.m
 //  Tasks
 //
 //  Created by Paul Solt on 10/9/19.
 //  Copyright © 2019 Lambda, Inc. All rights reserved.
 //
 
-#import "LSITaskDetailViewController.h"
+#import "JACTaskDetailViewController.h"
 
-@interface LSITaskDetailViewController ()
+@interface JACTaskDetailViewController ()
 
 @property (nonatomic, strong) IBOutlet UITextField *nameTextField;
 @property (nonatomic, strong) IBOutlet UISegmentedControl *priorityControl;
@@ -17,7 +17,7 @@
 
 @end
 
-@implementation LSITaskDetailViewController
+@implementation JACTaskDetailViewController
 
 - (void)viewDidLoad
 {

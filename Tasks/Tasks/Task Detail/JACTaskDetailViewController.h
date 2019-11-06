@@ -1,5 +1,5 @@
 //
-//  LSITaskDetailViewController.h
+//  JACTaskDetailViewController.h
 //  Tasks
 //
 //  Created by Andrew R Madsen on 10/2/18.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LSITaskDetailViewController : UIViewController
+@interface JACTaskDetailViewController : UIViewController
 
 
 @end
