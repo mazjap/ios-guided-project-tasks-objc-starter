@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0E8BD37823733871002434C7 /* JACTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8BD37723733871002434C7 /* JACTask.m */; };
 		0E8BD3792373387D002434C7 /* JACTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8BD37723733871002434C7 /* JACTask.m */; };
+		0EE87290237343C20096CAC1 /* JACTaskController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE8728F237343C20096CAC1 /* JACTaskController.m */; };
+		0EE87291237344CE0096CAC1 /* JACTaskController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE8728F237343C20096CAC1 /* JACTaskController.m */; };
 		BD08F328234E3AF800771883 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08F327234E3AF800771883 /* AppDelegate.m */; };
 		BD08F32B234E3AF800771883 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08F32A234E3AF800771883 /* SceneDelegate.m */; };
 		BD08F333234E3AF900771883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD08F332234E3AF900771883 /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 /* Begin PBXFileReference section */
 		0E8BD37623733871002434C7 /* JACTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JACTask.h; sourceTree = "<group>"; };
 		0E8BD37723733871002434C7 /* JACTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JACTask.m; sourceTree = "<group>"; };
+		0EE8728E237343C20096CAC1 /* JACTaskController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JACTaskController.h; sourceTree = "<group>"; };
+		0EE8728F237343C20096CAC1 /* JACTaskController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JACTaskController.m; sourceTree = "<group>"; };
 		BD08F323234E3AF800771883 /* Tasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD08F326234E3AF800771883 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BD08F327234E3AF800771883 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -70,6 +74,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E8BD37A23733AD4002434C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E8BD37623733871002434C7 /* JACTask.h */,
+				0E8BD37723733871002434C7 /* JACTask.m */,
+				0EE8728E237343C20096CAC1 /* JACTaskController.h */,
+				0EE8728F237343C20096CAC1 /* JACTaskController.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		BD08F31A234E3AF800771883 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +110,7 @@
 				BD08F327234E3AF800771883 /* AppDelegate.m */,
 				BD08F329234E3AF800771883 /* SceneDelegate.h */,
 				BD08F32A234E3AF800771883 /* SceneDelegate.m */,
-				0E8BD37623733871002434C7 /* JACTask.h */,
-				0E8BD37723733871002434C7 /* JACTask.m */,
+				0E8BD37A23733AD4002434C7 /* Model */,
 				BD21D029234E40E200E45282 /* Task Table View */,
 				BD21D028234E3F8D00E45282 /* Task Detail */,
 				BD08F353234E3B3900771883 /* Main.storyboard */,
@@ -237,6 +251,7 @@
 			files = (
 				BD08F328234E3AF800771883 /* AppDelegate.m in Sources */,
 				BD08F352234E3B3000771883 /* JACTasksTableViewController.m in Sources */,
+				0EE87290237343C20096CAC1 /* JACTaskController.m in Sources */,
 				BD08F351234E3B3000771883 /* JACTaskDetailViewController.m in Sources */,
 				BD08F339234E3AF900771883 /* main.m in Sources */,
 				BD08F32B234E3AF800771883 /* SceneDelegate.m in Sources */,
@@ -250,6 +265,7 @@
 			files = (
 				0E8BD3792373387D002434C7 /* JACTask.m in Sources */,
 				BD08F343234E3AF900771883 /* TasksTests.m in Sources */,
+				0EE87291237344CE0096CAC1 /* JACTaskController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

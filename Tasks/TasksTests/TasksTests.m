@@ -9,6 +9,7 @@
 #import <XCTest/XCTest.h>
 //#import "../Tasks/Task Model/LSITask.h"
 #import "JACTask.h"
+#import "JACTaskController.h"
 
 @interface TasksTests : XCTestCase
 
@@ -19,8 +20,14 @@
 - (void)testCode {
 	
     JACTask *task = [[JACTask alloc] init];
-
     
+    [task setName:@"Wash the car"];
+
+    NSLog(@"Task: %@", task.name);
+    
+    JACTaskController *controller = [[JACTaskController alloc] init];
+    
+    NSArray *tasks = controller.task;
 }
 
 @end
